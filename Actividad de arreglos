@@ -1,0 +1,16 @@
+#include <stdio.h> 
+#include <math.h> 
+
+#define N 100
+
+float calcularPromedio(int arr[], int n);
+float calcularMedia(int arr[], int n);
+float calcularMediana(int arr[], int n);
+floar calcularModa(int arr[], int n);
+floar calcularDesviacion(int arr[], int n);
+
+int main(){ 
+  int datos[N];
+  int n;
+  float promedio, mediana, desviacion;
+  int moda:
